@@ -1,0 +1,11 @@
+// Add this at the very beginning of app-interactive-navigation.js
+
+// MOCKUP MODE FLAG - Demo runs client-side with no backend
+const MOCKUP_MODE = true;
+
+// Wrap all fetch() calls with mockApiCall() when MOCKUP_MODE is true
+// Example:
+// OLD: const response = await fetch(`${API_BASE}/api/node/company-root?...`);
+// NEW: const response = MOCKUP_MODE
+//        ? { ok: true, json: async () => await mockApiCall('/api/node/company-root', params) }
+//        : await fetch(`${API_BASE}/api/node/company-root?...`);

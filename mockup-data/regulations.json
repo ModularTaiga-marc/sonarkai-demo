@@ -1,0 +1,94 @@
+{
+    "insurance": [
+        {
+            "regulation_id": "reg-ifrs17",
+            "regulation_name": "IFRS 17",
+            "jurisdiction": "EU",
+            "description": "International Financial Reporting Standard 17 - Insurance Contracts. Establishes principles for recognition, measurement, presentation and disclosure of insurance contracts.",
+            "applicability": "All insurance companies operating in EU jurisdictions"
+        },
+        {
+            "regulation_id": "reg-solvency2",
+            "regulation_name": "Solvency II",
+            "jurisdiction": "EU",
+            "description": "EU directive on prudential regulation of insurance and reinsurance undertakings. Ensures adequate capital reserves and risk management.",
+            "applicability": "Insurance and reinsurance companies in European Union"
+        },
+        {
+            "regulation_id": "reg-gdpr",
+            "regulation_name": "GDPR",
+            "jurisdiction": "EU",
+            "description": "General Data Protection Regulation. Protects personal data and privacy of EU citizens.",
+            "applicability": "All companies processing EU citizen data"
+        }
+    ],
+    "banking": [
+        {
+            "regulation_id": "reg-basel3",
+            "regulation_name": "Basel III",
+            "jurisdiction": "Global",
+            "description": "International regulatory framework for banks on capital adequacy, stress testing and market liquidity risk.",
+            "applicability": "Banks and financial institutions worldwide"
+        },
+        {
+            "regulation_id": "reg-mifid2",
+            "regulation_name": "MiFID II",
+            "jurisdiction": "EU",
+            "description": "Markets in Financial Instruments Directive. Regulates financial markets and improves protection for investors.",
+            "applicability": "Investment firms and trading venues in EU"
+        },
+        {
+            "regulation_id": "reg-gdpr",
+            "regulation_name": "GDPR",
+            "jurisdiction": "EU",
+            "description": "General Data Protection Regulation. Protects personal data and privacy of EU citizens.",
+            "applicability": "All companies processing EU citizen data"
+        }
+    ],
+    "healthcare": [
+        {
+            "regulation_id": "reg-hipaa",
+            "regulation_name": "HIPAA",
+            "jurisdiction": "USA",
+            "description": "Health Insurance Portability and Accountability Act. Protects sensitive patient health information.",
+            "applicability": "Healthcare providers and insurers in United States"
+        },
+        {
+            "regulation_id": "reg-mdr",
+            "regulation_name": "MDR",
+            "jurisdiction": "EU",
+            "description": "Medical Device Regulation. Ensures safety and performance of medical devices.",
+            "applicability": "Medical device manufacturers in European Union"
+        },
+        {
+            "regulation_id": "reg-gdpr",
+            "regulation_name": "GDPR",
+            "jurisdiction": "EU",
+            "description": "General Data Protection Regulation. Protects personal data and privacy of EU citizens.",
+            "applicability": "All companies processing EU citizen data"
+        }
+    ],
+    "technology": [
+        {
+            "regulation_id": "reg-gdpr",
+            "regulation_name": "GDPR",
+            "jurisdiction": "EU",
+            "description": "General Data Protection Regulation. Protects personal data and privacy of EU citizens.",
+            "applicability": "All companies processing EU citizen data"
+        },
+        {
+            "regulation_id": "reg-dsa",
+            "regulation_name": "Digital Services Act",
+            "jurisdiction": "EU",
+            "description": "Regulation on digital services and online intermediary liability.",
+            "applicability": "Digital platforms and online services in EU"
+        },
+        {
+            "regulation_id": "reg-ai-act",
+            "regulation_name": "EU AI Act",
+            "jurisdiction": "EU",
+            "description": "Regulation on artificial intelligence systems and risk management.",
+            "applicability": "AI system providers in European Union"
+        }
+    ]
+}

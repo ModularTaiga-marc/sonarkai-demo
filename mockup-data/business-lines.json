@@ -1,0 +1,82 @@
+{
+    "insurance": [
+        {
+            "lob_id": "lob-individual-life",
+            "lob_name": "Individual Life Insurance",
+            "description": "Life insurance products for individuals and families, including term life, whole life, and universal life policies.",
+            "processes": ["underwriting-life", "claims-life", "policy-admin-life"]
+        },
+        {
+            "lob_id": "lob-group-health",
+            "lob_name": "Group Health Insurance",
+            "description": "Health insurance coverage for employee groups, including medical, dental, and vision benefits.",
+            "processes": ["underwriting-health", "claims-health", "network-management"]
+        },
+        {
+            "lob_id": "lob-commercial-property",
+            "lob_name": "Commercial Property Insurance",
+            "description": "Property insurance for businesses, covering buildings, equipment, and business interruption.",
+            "processes": ["underwriting-property", "claims-property", "risk-assessment"]
+        }
+    ],
+    "banking": [
+        {
+            "lob_id": "lob-retail-banking",
+            "lob_name": "Retail Banking",
+            "description": "Banking services for individual consumers, including checking accounts, savings, mortgages, and personal loans.",
+            "processes": ["account-opening", "loan-origination", "credit-assessment"]
+        },
+        {
+            "lob_id": "lob-investment-banking",
+            "lob_name": "Investment Banking",
+            "description": "Corporate finance services including M&A advisory, capital raising, and securities underwriting.",
+            "processes": ["deal-origination", "due-diligence", "transaction-execution"]
+        },
+        {
+            "lob_id": "lob-wealth-management",
+            "lob_name": "Wealth Management",
+            "description": "Investment advisory and portfolio management services for high-net-worth individuals.",
+            "processes": ["client-onboarding", "portfolio-management", "performance-reporting"]
+        }
+    ],
+    "healthcare": [
+        {
+            "lob_id": "lob-diagnostic-devices",
+            "lob_name": "Diagnostic Devices",
+            "description": "Medical devices for diagnosis, including imaging equipment and laboratory analyzers.",
+            "processes": ["product-development", "regulatory-approval", "quality-control"]
+        },
+        {
+            "lob_id": "lob-surgical-instruments",
+            "lob_name": "Surgical Instruments",
+            "description": "Surgical tools and equipment for operating rooms and medical procedures.",
+            "processes": ["manufacturing", "sterilization", "distribution"]
+        },
+        {
+            "lob_id": "lob-patient-monitoring",
+            "lob_name": "Patient Monitoring Systems",
+            "description": "Electronic systems for continuous patient vital sign monitoring.",
+            "processes": ["system-integration", "data-management", "technical-support"]
+        }
+    ],
+    "technology": [
+        {
+            "lob_id": "lob-cloud-services",
+            "lob_name": "Cloud Services",
+            "description": "Cloud infrastructure and platform services for enterprise applications.",
+            "processes": ["provisioning", "scaling", "security-management"]
+        },
+        {
+            "lob_id": "lob-data-analytics",
+            "lob_name": "Data Analytics",
+            "description": "Business intelligence and data analytics solutions for enterprise decision-making.",
+            "processes": ["data-integration", "analytics-modeling", "reporting"]
+        },
+        {
+            "lob_id": "lob-ai-solutions",
+            "lob_name": "AI Solutions",
+            "description": "Artificial intelligence and machine learning products for business automation.",
+            "processes": ["model-training", "deployment", "monitoring"]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "process_id": "underwriting-life",
+        "process_name": "Life Insurance Underwriting",
+        "description": "Risk assessment and policy pricing for life insurance applications, including medical evaluation and financial review.",
+        "industry": "insurance",
+        "key_activities": ["Application Review", "Medical Underwriting", "Risk Classification", "Premium Calculation"]
+    },
+    {
+        "process_id": "claims-life",
+        "process_name": "Life Insurance Claims Processing",
+        "description": "Processing death benefit claims, including verification of coverage and beneficiary identification.",
+        "industry": "insurance",
+        "key_activities": ["Claim Notification", "Documentation Review", "Benefit Calculation", "Payment Processing"]
+    },
+    {
+        "process_id": "underwriting-health",
+        "process_name": "Health Insurance Underwriting",
+        "description": "Assessment of health risks for group and individual health insurance policies.",
+        "industry": "insurance",
+        "key_activities": ["Risk Assessment", "Group Analysis", "Rate Setting", "Policy Issuance"]
+    },
+    {
+        "process_id": "loan-origination",
+        "process_name": "Loan Origination",
+        "description": "Process of evaluating and approving loan applications for retail banking customers.",
+        "industry": "banking",
+        "key_activities": ["Application Intake", "Credit Check", "Income Verification", "Loan Approval"]
+    },
+    {
+        "process_id": "due-diligence",
+        "process_name": "M&A Due Diligence",
+        "description": "Comprehensive investigation of target company for mergers and acquisitions.",
+        "industry": "banking",
+        "key_activities": ["Financial Analysis", "Legal Review", "Risk Assessment", "Valuation"]
+    },
+    {
+        "process_id": "product-development",
+        "process_name": "Medical Device Development",
+        "description": "Design and development of new medical devices from concept to market.",
+        "industry": "healthcare",
+        "key_activities": ["Concept Design", "Prototyping", "Clinical Testing", "Regulatory Submission"]
+    },
+    {
+        "process_id": "regulatory-approval",
+        "process_name": "Regulatory Approval Process",
+        "description": "Obtaining regulatory approvals for medical devices from health authorities.",
+        "industry": "healthcare",
+        "key_activities": ["Documentation Preparation", "Submission Filing", "Agency Review", "Compliance Verification"]
+    },
+    {
+        "process_id": "data-integration",
+        "process_name": "Enterprise Data Integration",
+        "description": "Integrating data from multiple sources for unified analytics and reporting.",
+        "industry": "technology",
+        "key_activities": ["Data Source Connection", "ETL Processing", "Data Quality Checks", "Pipeline Deployment"]
+    },
+    {
+        "process_id": "model-training",
+        "process_name": "AI Model Training",
+        "description": "Training machine learning models on customer data for business applications.",
+        "industry": "technology",
+        "key_activities": ["Data Preparation", "Feature Engineering", "Model Training", "Validation Testing"]
+    }
+]

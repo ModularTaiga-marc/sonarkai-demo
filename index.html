@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonarKai - Turn Business Complexity Into Clarity - AI-Powered Ontology Generation</title>
+    <meta name="description" content="AI-powered business ontology generation for any company. Scan your business landscape and generate complete knowledge graphs in minutes instead of months.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'catalyst-blue': '#0066cc',
+                        'catalyst-purple': '#6366f1',
+                        'catalyst-dark': '#0f172a',
+                        'catalyst-gray': '#1e293b',
+                        'kaimak-blue': '#0066cc',
+                        'kaimak-dark': '#1a1a2e',
+                        'kaimak-gray': '#2d2d44',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.5); }
+            50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.8); }
+        }
+        .glow-pulse { animation: pulse-glow 2s ease-in-out infinite; }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #6366f1, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in-up { animation: fadeInUp 0.6s ease-out; }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-catalyst-dark via-catalyst-gray to-catalyst-dark text-white min-h-screen">
+    <div class="container mx-auto px-4 py-16 max-w-6xl">
+        <!-- Hero Section -->
+        <div class="text-center mb-16 fade-in-up">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                Turn Business Complexity Into<br>
+                <span class="gradient-text">Clear Ontology</span>
+            </h1>
+
+            <p class="text-2xl text-gray-300 mb-4">
+                From <span class="line-through text-gray-500">18 months manual work</span> to <span class="text-green-400 font-bold">2 minutes automated</span>
+            </p>
+
+            <p class="text-lg text-gray-400 mb-12">
+                Scan your business landscape—regulations, documentation, structure, systems—<br>
+                and generate your complete business ontology. Works for any company, any industry.
+            </p>
+
+            <!-- CTA Button -->
+            <div class="mb-8">
+                <a href="/generate?start=true"
+                   class="inline-block bg-gradient-to-r from-purple-600 to-blue-500 text-white px-10 py-5 rounded-lg text-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-200 glow-pulse">
+                    Generate My Business Ontology (Free)
+                </a>
+                <p class="text-sm text-gray-400 mt-4">Free to try • 2-minute setup • Instant knowledge graph</p>
+            </div>
+        </div>
+
+        <!-- The Difference -->
+        <h2 class="text-3xl font-bold text-center mb-8">The Difference</h2>
+
+        <!-- Comparison: Old Way vs SonarKai -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+            <div class="bg-red-900/20 border-2 border-red-500/50 rounded-xl p-8 backdrop-blur-sm">
+                <div class="text-center">
+                    <div class="text-5xl mb-4">❌</div>
+                    <h3 class="text-2xl font-bold mb-4">The Old Way</h3>
+                    <div class="text-6xl font-bold text-red-400 mb-4">18 months</div>
+                    <ul class="text-left text-gray-300 space-y-2">
+                        <li>• Hire ontology consultants</li>
+                        <li>• Interview stakeholders endlessly</li>
+                        <li>• Map everything manually</li>
+                        <li>• Build from scratch</li>
+                        <li>• Spend $500K+</li>
+                        <li>• Fight for consensus</li>
+                    </ul>
+                    <p class="text-red-400 font-bold mt-4">Outdated by the time it's done</p>
+                </div>
+            </div>
+
+            <div class="bg-green-900/20 border-2 border-green-500/50 rounded-xl p-8 backdrop-blur-sm">
+                <div class="text-center">
+                    <div class="text-5xl mb-4">✅</div>
+                    <h3 class="text-2xl font-bold mb-4">With SonarKai</h3>
+                    <div class="text-6xl font-bold text-green-400 mb-4">2 minutes</div>
+                    <ul class="text-left text-gray-300 space-y-2">
+                        <li>• Tell us about your company</li>
+                        <li>• Point us at your knowledge</li>
+                        <li>• We scan and synthesize</li>
+                        <li>• Generate complete ontology</li>
+                        <li>• Visualize as knowledge graph</li>
+                        <li>• Export to any platform</li>
+                    </ul>
+                    <p class="text-green-400 font-bold mt-4">Start using immediately</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- What You Get -->
+        <h2 class="text-3xl font-bold text-center mb-8">What You Get</h2>
+
+        <!-- Value Props -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">📋</div>
+                <div class="font-bold text-xl mb-2">Regulatory Framework</div>
+                <div class="text-sm text-gray-400">All regulations that apply to your company and industry—mapped and analyzed</div>
+            </div>
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">🏢</div>
+                <div class="font-bold text-xl mb-2">Business Structure</div>
+                <div class="text-sm text-gray-400">Your organization's departments, lines of business, and operational units</div>
+            </div>
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">⚙️</div>
+                <div class="font-bold text-xl mb-2">Business Processes</div>
+                <div class="text-sm text-gray-400">Key processes identified and explained—from regulations, docs, and systems</div>
+            </div>
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">📖</div>
+                <div class="font-bold text-xl mb-2">Business Glossary</div>
+                <div class="text-sm text-gray-400">Complete vocabulary with definitions—the language of your domain</div>
+            </div>
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">🔗</div>
+                <div class="font-bold text-xl mb-2">Knowledge Graph</div>
+                <div class="text-sm text-gray-400">Interactive ontology visualization—explore relationships, drill down into details</div>
+            </div>
+            <div class="bg-catalyst-gray/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+                <div class="text-4xl mb-3">📦</div>
+                <div class="font-bold text-xl mb-2">Export Anywhere</div>
+                <div class="text-sm text-gray-400">RDF, OWL, JSON-LD, GraphML—or direct import to Collibra, Alation, Informatica</div>
+            </div>
+        </div>
+
+        <!-- DG Platform Integration -->
+        <div class="mb-16 text-center">
+            <p class="text-sm text-gray-500 mb-4">EXPORT TO YOUR EXISTING DATA GOVERNANCE PLATFORM</p>
+            <div class="flex flex-wrap justify-center gap-6 items-center">
+                <div class="px-6 py-3 bg-gray-800 rounded-lg border border-gray-700 text-gray-300">
+                    <span class="font-semibold">Collibra</span>
+                </div>
+                <div class="px-6 py-3 bg-gray-800 rounded-lg border border-gray-700 text-gray-300">
+                    <span class="font-semibold">Alation</span>
+                </div>
+                <div class="px-6 py-3 bg-gray-800 rounded-lg border border-gray-700 text-gray-300">
+                    <span class="font-semibold">Informatica</span>
+                </div>
+                <div class="px-6 py-3 bg-gray-800 rounded-lg border border-gray-700 text-gray-300">
+                    <span class="font-semibold">Atlan</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final CTA -->
+        <div class="text-center bg-gradient-to-r from-purple-900/40 to-blue-900/40 rounded-2xl p-12 border border-purple-500/30 backdrop-blur-sm">
+            <h2 class="text-4xl font-bold mb-4">Generate Your Ontology in Minutes</h2>
+            <p class="text-xl text-gray-300 mb-8">See how your business landscape becomes a complete ontology—instantly</p>
+            <a href="/generate?start=true"
+               class="inline-block bg-gradient-to-r from-purple-600 to-blue-500 text-white px-10 py-5 rounded-lg text-xl font-bold hover:shadow-2xl hover:scale-105 transition-all duration-200">
+                Start Free
+            </a>
+            <p class="text-sm text-gray-400 mt-4">Takes 2 minutes • No signup required for free tier</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-700 text-center">
+            <div class="mb-6">
+                <p class="text-lg mb-2"><strong>SonarKai</strong> - Created by <a href="https://www.linkedin.com/in/marcrafaellafuente/" target="_blank" class="text-purple-400 hover:text-purple-300 underline"><strong>Marc Rafael Lafuente</strong></a></p>
+                <p class="text-gray-400">Founder & CEO, <a href="https://modulartaiga.com" target="_blank" class="text-purple-400 hover:text-purple-300 underline">Modular Taiga</a></p>
+                <p class="text-gray-400">CDMP Certified by DAMA-I | Member of <a href="https://www.damaspain.org/profesionales-certificados-cdmp-por-dama-i/" target="_blank" class="text-purple-400 hover:text-purple-300 underline">DAMA Spain</a></p>
+                <p class="text-gray-400 text-sm mt-2"><em>SonarKai is the first product in the Kaimak data governance suite.</em></p>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-6 mb-6">
+                <a href="https://github.com/ModularTaiga-marc/sonarkai-demo" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://modulartaiga.com" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-globe"></i> Modular Taiga
+                </a>
+                <a href="https://www.linkedin.com/in/marcrafaellafuente/" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="/legal-notice" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-file-contract"></i> Legal Notice
+                </a>
+                <a href="/privacy" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-shield-alt"></i> Privacy
+                </a>
+                <a href="/cookies" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-cookie-bite"></i> Cookies
+                </a>
+            </div>
+
+            <p class="text-gray-500 text-sm">
+                © 2025 Modular Taiga SL • Automated outputs require validation by qualified professionals
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

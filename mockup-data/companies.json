@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Acme Insurance Co.",
+        "industry": "insurance",
+        "hq_location": "USA",
+        "party_type": "Insurance Company",
+        "party_role": "Life & Health Insurer",
+        "description": "Leading provider of life and health insurance products across North America, specializing in comprehensive coverage for individuals and businesses."
+    },
+    {
+        "name": "Global Bank Corp",
+        "industry": "banking",
+        "hq_location": "UK",
+        "party_type": "Financial Institution",
+        "party_role": "Investment Bank",
+        "description": "International investment banking services, wealth management, and corporate finance solutions for global enterprises."
+    },
+    {
+        "name": "MedTech Solutions",
+        "industry": "healthcare",
+        "hq_location": "Germany",
+        "party_type": "Healthcare Provider",
+        "party_role": "Medical Device Manufacturer",
+        "description": "Innovative medical devices and healthcare technology solutions, serving hospitals and clinics across Europe."
+    },
+    {
+        "name": "TechFlow Systems",
+        "industry": "technology",
+        "hq_location": "Ireland",
+        "party_type": "Technology Company",
+        "party_role": "SaaS Provider",
+        "description": "Cloud-based enterprise software solutions for data management, analytics, and business intelligence."
+    }
+]
